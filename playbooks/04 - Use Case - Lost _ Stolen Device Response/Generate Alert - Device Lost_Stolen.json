@@ -188,7 +188,11 @@
     ],
     "priority": null,
     "uuid": "d9ff1af9-c69d-487f-8e6f-b941cd428f58",
-    "recordTags": [],
+    "recordTags": [
+        "FSRSolutionPack",
+        "ManualTrigger",
+        "lostOrStolenDeviceResponse-1.0.0"
+    ],
     "id": "827",
     "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
     "createDate": 1644772855.022679,

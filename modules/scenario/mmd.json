@@ -59,7 +59,7 @@
             "uuid": "2700e9f5-2151-4546-938a-647db9108ef1",
             "recordTags": [
                 "FSRSolutionPack",
-                "socSimulator-1.0.0"
+                "lostOrStolenDeviceResponse-1.0.0"
             ],
             "displayName": "{{ configuration }}",
             "descriptions": {
@@ -107,7 +107,7 @@
             "uuid": "1b86e59e-aa90-4c6a-9d04-77e72e0179f0",
             "recordTags": [
                 "FSRSolutionPack",
-                "socSimulator-1.0.0"
+                "lostOrStolenDeviceResponse-1.0.0"
             ],
             "displayName": "{{ comments }}",
             "descriptions": {
@@ -158,7 +158,8 @@
             "uuid": "e38fc646-dcd2-4feb-b54e-d9c0474aef3e",
             "recordTags": [
                 "FSRSolutionPack",
-                "socSimulator-1.0.0"
+                "ManualTrigger",
+                "lostOrStolenDeviceResponse-1.0.0"
             ],
             "displayName": "{{ title }}",
             "descriptions": {
@@ -208,7 +209,8 @@
             "uuid": "42891af9-05da-40cc-b4d0-3b7843dfda07",
             "recordTags": [
                 "FSRSolutionPack",
-                "socSimulator-1.0.0"
+                "ManualTrigger",
+                "lostOrStolenDeviceResponse-1.0.0"
             ],
             "displayName": "{{ description }}",
             "descriptions": {
@@ -258,7 +260,8 @@
             "uuid": "5cdb974b-2acc-4aee-a344-cf1c1495a548",
             "recordTags": [
                 "FSRSolutionPack",
-                "socSimulator-1.0.0"
+                "ManualTrigger",
+                "lostOrStolenDeviceResponse-1.0.0"
             ],
             "displayName": "{{ steps }}",
             "descriptions": {
@@ -308,7 +311,8 @@
             "uuid": "ac055032-6bc2-4fa4-b4b1-ec36322a9b9e",
             "recordTags": [
                 "FSRSolutionPack",
-                "socSimulator-1.0.0"
+                "ManualTrigger",
+                "lostOrStolenDeviceResponse-1.0.0"
             ],
             "displayName": "{{ createdAlertsID }}",
             "descriptions": {
@@ -330,7 +334,8 @@
     "uuid": "6aff02c6-7d7f-4bea-a450-acf2440ac82f",
     "recordTags": [
         "FSRSolutionPack",
-        "socSimulator-1.0.0"
+        "ManualTrigger",
+        "lostOrStolenDeviceResponse-1.0.0"
     ],
     "displayName": "{{ title }}",
     "descriptions": {

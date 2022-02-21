@@ -24,8 +24,10 @@
         "modifyDate": 1644831489.929507,
         "id": "11",
         "recordTags": [
-            "FortiSOAR",
-            "Device Lost or Stolen"
+            "Device Lost or Stolen",
+            "FSRSolutionPack",
+            "ManualTrigger",
+            "lostOrStolenDeviceResponse-1.0.0"
         ]
     }
 ]

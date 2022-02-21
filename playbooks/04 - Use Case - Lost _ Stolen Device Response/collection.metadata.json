@@ -12,7 +12,9 @@
     "modifyUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
     "modifyDate": 1644825803.065817,
     "recordTags": [
-        "FSRSolutionPack"
+        "FSRSolutionPack",
+        "ManualTrigger",
+        "lostOrStolenDeviceResponse-1.0.0"
     ],
     "deletedAt": null
 }
