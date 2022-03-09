@@ -1,6 +1,6 @@
 {
     "@context": "\/api\/3\/contexts\/StagingModelMetadata",
-    "@id": "\/api\/3\/staging_model_metadatas\/6aff02c6-7d7f-4bea-a450-acf2440ac82f",
+    "@id": "\/api\/3\/staging_model_metadatas\/caaa4abf-c37f-45b6-a88a-804470687e7f",
     "@type": "StagingModelMetadata",
     "type": "scenario",
     "parentType": null,
@@ -17,7 +17,142 @@
     "writable": true,
     "attributes": [
         {
-            "@id": "\/api\/3\/attribute_metadatas\/2700e9f5-2151-4546-938a-647db9108ef1",
+            "@id": "\/api\/3\/attribute_metadatas\/54e289b1-99b5-4950-a4b7-c332756d366b",
+            "@type": "AttributeMetadata",
+            "type": "string",
+            "name": "description",
+            "length": 0,
+            "orderIndex": 3,
+            "formType": "richtext",
+            "dataSource": [],
+            "searchable": true,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": false,
+            "collection": false,
+            "inversedField": null,
+            "ownsRelationship": false,
+            "validation": {
+                "required": true,
+                "minlength": 0,
+                "maxlength": 10485761
+            },
+            "bulkAction": {
+                "allow": false,
+                "buttonText": "",
+                "buttonIcon": "",
+                "buttonClass": "btn btn-default btn-sm"
+            },
+            "dataSourceFilters": [],
+            "defaultValue": null,
+            "tooltip": "Define your use case with help of diagram and steps",
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": false,
+            "readable": true,
+            "writeable": true,
+            "identifier": false,
+            "unique": false,
+            "recommend": false,
+            "uuid": "54e289b1-99b5-4950-a4b7-c332756d366b",
+            "displayName": "{{ description }}",
+            "descriptions": {
+                "singular": "Description"
+            }
+        },
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/c208c3a6-a027-4ed6-acc5-229830617ff4",
+            "@type": "AttributeMetadata",
+            "type": "string",
+            "name": "createdAlertsID",
+            "length": 0,
+            "orderIndex": 6,
+            "formType": "textarea",
+            "dataSource": [],
+            "searchable": true,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": false,
+            "collection": false,
+            "inversedField": null,
+            "ownsRelationship": false,
+            "validation": {
+                "required": false,
+                "minlength": 0,
+                "maxlength": 10485761
+            },
+            "bulkAction": {
+                "allow": false,
+                "buttonText": "",
+                "buttonIcon": "",
+                "buttonClass": "btn btn-default btn-sm"
+            },
+            "dataSourceFilters": [],
+            "defaultValue": null,
+            "tooltip": "",
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": false,
+            "readable": true,
+            "writeable": true,
+            "identifier": false,
+            "unique": false,
+            "recommend": false,
+            "uuid": "c208c3a6-a027-4ed6-acc5-229830617ff4",
+            "displayName": "{{ createdAlertsID }}",
+            "descriptions": {
+                "singular": "Created Alerts ID"
+            }
+        },
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/74592051-a86c-42f0-befc-fb73ef7f29fa",
+            "@type": "AttributeMetadata",
+            "type": "object",
+            "name": "steps",
+            "length": 0,
+            "orderIndex": 4,
+            "formType": "object",
+            "dataSource": [],
+            "searchable": false,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": false,
+            "collection": false,
+            "inversedField": null,
+            "ownsRelationship": false,
+            "validation": {
+                "required": true,
+                "minlength": 0,
+                "maxlength": 10485761
+            },
+            "bulkAction": {
+                "allow": false,
+                "buttonText": "",
+                "buttonIcon": "",
+                "buttonClass": "btn btn-default btn-sm"
+            },
+            "dataSourceFilters": [],
+            "defaultValue": null,
+            "tooltip": "define the steps of use case in the prescribed format",
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": false,
+            "readable": true,
+            "writeable": true,
+            "identifier": false,
+            "unique": false,
+            "recommend": false,
+            "uuid": "74592051-a86c-42f0-befc-fb73ef7f29fa",
+            "displayName": "{{ steps }}",
+            "descriptions": {
+                "singular": "Steps"
+            }
+        },
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/840d94ab-51b8-4782-ab37-5b0bdbfcbf69",
             "@type": "AttributeMetadata",
             "type": "string",
             "name": "configuration",
@@ -55,19 +190,14 @@
             "identifier": null,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/6aff02c6-7d7f-4bea-a450-acf2440ac82f",
-            "uuid": "2700e9f5-2151-4546-938a-647db9108ef1",
-            "recordTags": [
-                "FSRSolutionPack",
-                "lostOrStolenDeviceResponse-1.0.0"
-            ],
+            "uuid": "840d94ab-51b8-4782-ab37-5b0bdbfcbf69",
             "displayName": "{{ configuration }}",
             "descriptions": {
                 "singular": "Configuration"
             }
         },
         {
-            "@id": "\/api\/3\/attribute_metadatas\/1b86e59e-aa90-4c6a-9d04-77e72e0179f0",
+            "@id": "\/api\/3\/attribute_metadatas\/64308afb-66ce-4081-91fe-08c257c720e8",
             "@type": "AttributeMetadata",
             "type": "comments",
             "name": "comments",
@@ -84,7 +214,7 @@
             "gridColumn": false,
             "collection": true,
             "inversedField": "scenario",
-            "ownsRelationship": false,
+            "ownsRelationship": true,
             "validation": {
                 "required": false,
                 "minlength": 0,
@@ -103,19 +233,14 @@
             "identifier": false,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/6aff02c6-7d7f-4bea-a450-acf2440ac82f",
-            "uuid": "1b86e59e-aa90-4c6a-9d04-77e72e0179f0",
-            "recordTags": [
-                "FSRSolutionPack",
-                "lostOrStolenDeviceResponse-1.0.0"
-            ],
+            "uuid": "64308afb-66ce-4081-91fe-08c257c720e8",
             "displayName": "{{ comments }}",
             "descriptions": {
                 "singular": "Comments"
             }
         },
         {
-            "@id": "\/api\/3\/attribute_metadatas\/e38fc646-dcd2-4feb-b54e-d9c0474aef3e",
+            "@id": "\/api\/3\/attribute_metadatas\/7b795797-5ef5-4026-880a-a4b4381bcb00",
             "@type": "AttributeMetadata",
             "type": "string",
             "name": "title",
@@ -154,169 +279,10 @@
             "identifier": false,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/6aff02c6-7d7f-4bea-a450-acf2440ac82f",
-            "uuid": "e38fc646-dcd2-4feb-b54e-d9c0474aef3e",
-            "recordTags": [
-                "FSRSolutionPack",
-                "ManualTrigger",
-                "lostOrStolenDeviceResponse-1.0.0"
-            ],
+            "uuid": "7b795797-5ef5-4026-880a-a4b4381bcb00",
             "displayName": "{{ title }}",
             "descriptions": {
                 "singular": "Title"
-            }
-        },
-        {
-            "@id": "\/api\/3\/attribute_metadatas\/42891af9-05da-40cc-b4d0-3b7843dfda07",
-            "@type": "AttributeMetadata",
-            "type": "string",
-            "name": "description",
-            "length": 0,
-            "orderIndex": 3,
-            "formType": "richtext",
-            "dataSource": [],
-            "searchable": true,
-            "peerReplicable": true,
-            "system": false,
-            "encrypted": false,
-            "gridColumn": false,
-            "collection": false,
-            "inversedField": null,
-            "ownsRelationship": false,
-            "validation": {
-                "required": true,
-                "minlength": 0,
-                "maxlength": 10485761
-            },
-            "bulkAction": {
-                "allow": false,
-                "buttonText": "",
-                "buttonIcon": "",
-                "buttonClass": "btn btn-default btn-sm"
-            },
-            "dataSourceFilters": [],
-            "defaultValue": null,
-            "tooltip": "Define your use case with help of diagram and steps",
-            "visibility": true,
-            "htmlEscape": false,
-            "orphanRemoval": false,
-            "readable": true,
-            "writeable": true,
-            "identifier": false,
-            "unique": false,
-            "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/6aff02c6-7d7f-4bea-a450-acf2440ac82f",
-            "uuid": "42891af9-05da-40cc-b4d0-3b7843dfda07",
-            "recordTags": [
-                "FSRSolutionPack",
-                "ManualTrigger",
-                "lostOrStolenDeviceResponse-1.0.0"
-            ],
-            "displayName": "{{ description }}",
-            "descriptions": {
-                "singular": "Description"
-            }
-        },
-        {
-            "@id": "\/api\/3\/attribute_metadatas\/5cdb974b-2acc-4aee-a344-cf1c1495a548",
-            "@type": "AttributeMetadata",
-            "type": "object",
-            "name": "steps",
-            "length": 0,
-            "orderIndex": 4,
-            "formType": "object",
-            "dataSource": [],
-            "searchable": false,
-            "peerReplicable": true,
-            "system": false,
-            "encrypted": false,
-            "gridColumn": false,
-            "collection": false,
-            "inversedField": null,
-            "ownsRelationship": false,
-            "validation": {
-                "required": true,
-                "minlength": 0,
-                "maxlength": 10485761
-            },
-            "bulkAction": {
-                "allow": false,
-                "buttonText": "",
-                "buttonIcon": "",
-                "buttonClass": "btn btn-default btn-sm"
-            },
-            "dataSourceFilters": [],
-            "defaultValue": null,
-            "tooltip": "define the steps of use case in the prescribed format",
-            "visibility": true,
-            "htmlEscape": false,
-            "orphanRemoval": false,
-            "readable": true,
-            "writeable": true,
-            "identifier": false,
-            "unique": false,
-            "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/6aff02c6-7d7f-4bea-a450-acf2440ac82f",
-            "uuid": "5cdb974b-2acc-4aee-a344-cf1c1495a548",
-            "recordTags": [
-                "FSRSolutionPack",
-                "ManualTrigger",
-                "lostOrStolenDeviceResponse-1.0.0"
-            ],
-            "displayName": "{{ steps }}",
-            "descriptions": {
-                "singular": "Steps"
-            }
-        },
-        {
-            "@id": "\/api\/3\/attribute_metadatas\/ac055032-6bc2-4fa4-b4b1-ec36322a9b9e",
-            "@type": "AttributeMetadata",
-            "type": "string",
-            "name": "createdAlertsID",
-            "length": 0,
-            "orderIndex": 6,
-            "formType": "textarea",
-            "dataSource": [],
-            "searchable": true,
-            "peerReplicable": true,
-            "system": false,
-            "encrypted": false,
-            "gridColumn": false,
-            "collection": false,
-            "inversedField": null,
-            "ownsRelationship": false,
-            "validation": {
-                "required": false,
-                "minlength": 0,
-                "maxlength": 10485761
-            },
-            "bulkAction": {
-                "allow": false,
-                "buttonText": "",
-                "buttonIcon": "",
-                "buttonClass": "btn btn-default btn-sm"
-            },
-            "dataSourceFilters": [],
-            "defaultValue": null,
-            "tooltip": "",
-            "visibility": true,
-            "htmlEscape": false,
-            "orphanRemoval": false,
-            "readable": true,
-            "writeable": true,
-            "identifier": false,
-            "unique": false,
-            "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/6aff02c6-7d7f-4bea-a450-acf2440ac82f",
-            "uuid": "ac055032-6bc2-4fa4-b4b1-ec36322a9b9e",
-            "recordTags": [
-                "FSRSolutionPack",
-                "ManualTrigger",
-                "lostOrStolenDeviceResponse-1.0.0"
-            ],
-            "displayName": "{{ createdAlertsID }}",
-            "descriptions": {
-                "singular": "Created Alerts ID"
             }
         }
     ],
@@ -331,12 +297,7 @@
         "delete_primary_data_after": 60
     },
     "archivalFilters": [],
-    "uuid": "6aff02c6-7d7f-4bea-a450-acf2440ac82f",
-    "recordTags": [
-        "FSRSolutionPack",
-        "ManualTrigger",
-        "lostOrStolenDeviceResponse-1.0.0"
-    ],
+    "uuid": "caaa4abf-c37f-45b6-a88a-804470687e7f",
     "displayName": "{{ title }}",
     "descriptions": {
         "singular": "Scenario",
