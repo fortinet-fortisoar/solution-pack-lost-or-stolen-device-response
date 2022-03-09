@@ -1,33 +1,28 @@
 [
     {
         "@type": "Scenario",
-        "configuration": "Default",
-        "title": "Device Reported as Lost or Stolen",
-        "description": "The scenario demonstrates and generates a demo alert for the Alert Type 'Lost \/ Stolen'.\nThis use-case deals with containment and investigation procedures once the user reports a lost or stolen device using email.\n-\tCreate FortiSOAR Alert using the email details received from end-user\n-\tGet Asset details from ServiceNow\n-\tCreate Asset in FortiSOAR\n-\tRetrieve User and Manager details from Active Directory\n-\tSend the Device confirmation detail to the End User and his\/her Manager\n-\tIsolate Device using Fortinet FortiEDR\n-\tSend Email to IT and HR team \n-\tClose the Alert in FortiSOAR\n",
+        "description": "The scenario demonstrates and generates a demo alert for the Alert Type 'Lost \\\/ Stolen'.\nThis use-case deals with containment and investigation procedures once the user reports a lost or stolen device using email.\n- Create FortiSOAR Alert using the email details received from end-user\n- Get Asset details from ServiceNow\n- Create Asset in FortiSOAR\n- Retrieve User and Manager details from Active Directory\n- Send the Device confirmation detail to the End User and his\\\/her Manager\n- Isolate Device using Fortinet FortiEDR\n- Send Email to IT and HR team \n- Close the Alert in FortiSOAR",
+        "createdAlertsID": null,
         "steps": {
             "Steps": [
                 {
                     "name": "Device was reported as lost or stolen",
                     "type": "executePlaybook",
-                    "playbookIRI": "\/api\/3\/workflows\/d9ff1af9-c69d-487f-8e6f-b941cd428f58",
+                    "playbookIRI": "\/api\/3\/workflows\/82fa2f60-5a15-4c38-a5f9-02ebceb409b4",
                     "preCreateMessage": "Creating demo record for device reported as lost or stolen",
                     "postCreateMessage": "",
                     "waitTimeforNextStep": "5"
                 }
             ]
         },
-        "createdAlertsID": null,
-        "uuid": "eac8bc5e-d6c0-4881-aa2c-f9175801e19d",
-        "createUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
-        "createDate": 1644772701.649773,
-        "modifyUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
-        "modifyDate": 1644831489.929507,
-        "id": "11",
-        "recordTags": [
-            "Device Lost or Stolen",
-            "FSRSolutionPack",
-            "ManualTrigger",
-            "lostOrStolenDeviceResponse-1.0.0"
-        ]
+        "configuration": null,
+        "title": "Device Reported as Lost or Stolen",
+        "uuid": "fe0dca48-a92e-465f-a37e-59ac2cea5945",
+        "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
+        "createDate": 1646672646.213527,
+        "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "modifyDate": 1646771231.391357,
+        "id": "4",
+        "recordTags": []
     }
 ]

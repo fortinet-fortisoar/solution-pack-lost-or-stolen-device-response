@@ -1,9 +1,9 @@
 {
-    "name": "lostOrStolenDeviceResponse",
+    "name": "lost-StolenDeviceResponse",
     "version": "1.0.0",
     "type": "solutionpack",
     "local": true,
-    "label": "Lost or Stolen Device Response",
+    "label": "Lost - Stolen Device Response",
     "dependencies": [
         {
             "name": "sOARFramework",
@@ -16,26 +16,22 @@
             "name": "socSimulator",
             "type": "solutionpack",
             "label": "SOC Simulator",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "minVersion": null
         }
     ],
-    "category": [],
-    "certified": "true",
-    "prerequisite": [
-        "Configure the Active Directory Connector",
-        "Configure the ServiceNow Connector",
-        "Configure the FortiEDR Connector"
-    ],
+    "prerequisite": "- Configure the Active Directory Connector\n- Configure the ServiceNow Connector\n- Configure the FortiEDR Connector",
     "publisher": "Fortinet",
+    "certified": "true",
     "description": "This solution pack demonstrates the procedure to be followed for the 'Lost \/ Stolen' device.",
-    "supportInfo": "support@fortinet.com",
     "summary": null,
-    "help": "https://github.com/fortinet-fortisoar/solution-pack-lost-or-stolen-device-response/blob/develop/README.md",
-    "tags": [],
+    "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-lost-or-stolen-device-response\/blob\/develop\/README.md",
+    "category": [],
+    "supportInfo": "support@fortinet.com",
+    "iconLarge": null,
     "fsrMinCompatibility": "7.2.0",
-    "date": "2022-02-21T07:53:46+00:00",
-    "exported_from": "fortisoar.localhost",
+    "date": "2022-03-09T05:49:05+00:00",
+    "exported_from": "master.fortisoar.in",
     "exported_by": "CS Admin",
     "contents": {
         "modules": {
@@ -53,20 +49,11 @@
         },
         "playbooks": [
             {
-                "name": "04 - Use Case - Lost _ Stolen Device Response"
+                "name": "04 - Use Case - Lost or Stolen Device Response"
             }
         ],
+        "globalVariables": [],
         "connectors": [
-            {
-                "name": "Active Directory",
-                "apiName": "activedirectory",
-                "version": "2.2.0"
-            },
-            {
-                "name": "Fortinet FortiEDR",
-                "apiName": "fortinet-fortiedr",
-                "version": "1.3.0"
-            },
             {
                 "name": "ServiceNow",
                 "apiName": "servicenow",

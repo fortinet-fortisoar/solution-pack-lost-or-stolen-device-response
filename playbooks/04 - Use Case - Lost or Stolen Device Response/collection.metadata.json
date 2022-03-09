@@ -1,0 +1,11 @@
+{
+    "@context": "\/api\/3\/contexts\/WorkflowCollection",
+    "@type": "WorkflowCollection",
+    "name": "04 - Use Case - Lost or Stolen Device Response",
+    "description": null,
+    "visible": true,
+    "image": null,
+    "uuid": "6f00bdc4-a280-450f-9ad3-5d0682f64648",
+    "deletedAt": null,
+    "recordTags": []
+}
