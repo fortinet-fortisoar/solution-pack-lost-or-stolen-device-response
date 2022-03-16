@@ -34,22 +34,9 @@
     "exported_from": "master.fortisoar.in",
     "exported_by": "CS Admin",
     "contents": {
-        "modules": {
-            "scenario": {
-                "name": "Scenario",
-                "apiName": "scenario"
-            }
-        },
-        "viewTemplates": {
-            "scenario": [
-                "list",
-                "detail",
-                "form"
-            ]
-        },
         "playbooks": [
             {
-                "name": "04 - Use Case - Lost or Stolen Device Response"
+                "name": "02 - Use Case - Lost or Stolen Device Response"
             }
         ],
         "globalVariables": [],
