@@ -42,9 +42,16 @@
         "globalVariables": [],
         "connectors": [
             {
+                "name": "Active Directory",
+                "apiName": "activedirectory"
+            },
+            {
+                "name": "Fortinet FortiEDR",
+                "apiName": "fortinet-fortiedr"
+            },
+            {
                 "name": "ServiceNow",
-                "apiName": "servicenow",
-                "version": "3.1.0"
+                "apiName": "servicenow"
             }
         ],
         "recordSets": {
