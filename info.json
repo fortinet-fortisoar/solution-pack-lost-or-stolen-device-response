@@ -22,7 +22,7 @@
     ],
     "prerequisite": "- Configure the Active Directory Connector\n- Configure the ServiceNow Connector\n- Configure the FortiEDR Connector",
     "publisher": "Fortinet",
-    "certified": "true",
+    "certified": "false",
     "description": "This solution pack demonstrates the procedure to be followed for the 'Lost \/ Stolen' device.",
     "summary": null,
     "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-lost-or-stolen-device-response\/blob\/develop\/README.md",
