@@ -1,5 +1,3 @@
-# Lost / Stolen Device Response Solution Pack
-
 ## Release Information
 
 - Solution Pack Version: 1.0.0
@@ -11,31 +9,34 @@
 
 ### Introduction
 
-*Lost / Stolen Device Response Solution Pack* is designed to provide a set of investigation playbooks to respond to lost/stolen devices information provided by the end-user through email. These emails are typically reported by employees in the organization (sent to a SOC common email inbox).
+**Lost / Stolen Device Response Solution Pack** is designed to provide a set of investigation playbooks to respond to lost/stolen devices information provided by the end-user through email. These emails are typically reported by employees in the organization (sent to a SOC common email inbox).
 
 Configure Email ingestion using Connectors such as Microsoft Exchange. Ingestion process creates an alert of type 'Lost/Stolen', and then triggers the response workflow.
 
-Refer to Simulation Scenarion - "Device Reported as Lost or Stolen" to experience the use case without any email configuration.
+Refer to Simulation Scenario - **Device Reported as Lost or Stolen** to experience the use case without any email configuration.
 
 ### Usage
 
-This Solution Pack ships with following simulation scenarios. [Refer](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to Simulate Scenario documentation to undersand how to Simulate and Reset Scenario.
+Refer to [Simulate Scenario documentation](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to understand how to Simulate and Reset scenarios.
 
-#### 1. Scenario - Device Reported as Lost or Stolen
+This Solution Pack ships with the following simulation scenarios. 
+
+**Scenario - Device Reported as Lost or Stolen**
 
 The scenario generates a demo alert of Type 'Lost / Stolen'.
-Goto generated alert and observe the following:
+
+Navigate to the generated alert and observe the following:
 
 - Reported Email contains Device information like Device Owner, Device Type, Device Serial Number etc.
 - Reported Information (sender, email message) is presented for analyzing the case.
 
-**Investigate Lost or Stolen Device Response** : Launch "Investigate Lost or Stolen Device Response" Playbook and observe various investigation activities such as
+**Investigate Lost or Stolen Device Response** : Launch **Investigate Lost or Stolen Device Response** Playbook and observe various investigation activities such as
 
-- Asset details from ServiceNow
-- Created Asset in FortiSOAR
-- User and Manager details from Active Directory
-- Sent the Device confirmation detail to the End User and his/her Manager
-- Isolated lost/stolen device using Fortinet FortiEDR
+- Fetching asset details from ServiceNow
+- Creating asset in FortiSOAR
+- Fetching user and manager details from Active Directory
+- Sending the device confirmation detail to the End User and his/her Manager
+- Isolating lost/stolen device using Fortinet FortiEDR
 
 ## Prerequisites
 
@@ -46,9 +47,7 @@ Goto generated alert and observe the following:
 
 ## Contents
 
-1. Record Set(s)
-    - Scenario: Device Reported as Lost or Stolen
-2. Connector(s)
+1. Connector(s)
     |**SN**|**Connector Name**|
     | :- | :- |
     |1|Microsoft Active Directory|
@@ -56,6 +55,10 @@ Goto generated alert and observe the following:
     |3|ServiceNow|
 
      **Warning:** After deployment, this Solution Pack installs or upgrades the stated list of connectors.
+
+2. Record Set(s)
+    - Scenario: Device Reported as Lost or Stolen
+
 3. Playbook Collection(s)
     - 02 - Use Case - Lost or Stolen Device Response (2):
 
